@@ -3,7 +3,7 @@ remoteChart:
   revision: 0.1.2
 chartValues: |
   image:
-    tag: v1.1.4
+    tag: v1.18.0
   redis:
     metrics:
       enabled: true
