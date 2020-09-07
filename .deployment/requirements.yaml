@@ -1,5 +1,0 @@
-dependencies:
-  - name: progressive
-    version: 0.3.0
-    repository: http://localhost:34567
-

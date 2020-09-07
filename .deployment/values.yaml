@@ -1,4 +1,9 @@
+---
+namespace: maersk-operator
 remoteChart:
-  name: app3tierpython
-  revision: 0.1.2
-  repo: "http://192.168.64.221:30708"
+  name: ""
+  revision: ""
+  repo: ""
+
+chartValues: {}
+autosync: True

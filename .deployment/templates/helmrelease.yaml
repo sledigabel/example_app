@@ -1,0 +1,13 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: {{ include "progressive.fullname" . }}
+  labels:
+{{ include "progressive.labels" . | indent 3 }}
+  namespace: {{ .Values.namespace | default "default" }}
+spec:
+  releaseName: {{ include "progressive.fullname" . }}
+  chart:
+    name: doesntmatter
+    repository: http://useless.com
+    version: 1.2.3.4.5
