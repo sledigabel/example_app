@@ -1,10 +1,7 @@
 remoteChart:
   name: app3tierpython
   revision: 0.1.2
-chartValues: |
-  image:
-    repository: docker.io/sledigabel/example_app
-    sha: $ARGOCD_APP_REVISION
+chartValues:
   redis:
     metrics:
       enabled: true
