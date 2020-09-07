@@ -2,6 +2,8 @@ remoteChart:
   name: app3tierpython
   revision: 0.1.2
 chartValues: |
+  image:
+    tag: v1.1.4
   redis:
     metrics:
       enabled: true
