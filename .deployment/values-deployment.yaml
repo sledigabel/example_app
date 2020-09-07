@@ -1,7 +1,7 @@
 remoteChart:
   name: app3tierpython
   revision: 0.1.2
-chartValues:
+chartValues: |
   redis:
     metrics:
       enabled: true
