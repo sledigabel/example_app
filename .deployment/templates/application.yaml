@@ -4,6 +4,7 @@ metadata:
   name: {{ include "progressive.fullname" . }}
   labels:
 {{ include "progressive.labels" . | indent 3 }}
+  namespace: {{ .Values.namespace }}
 spec:
   destination:
     namespace: default
